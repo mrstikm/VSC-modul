@@ -1,0 +1,20 @@
+{
+    "name": "k2u",
+    "displayName": "K2u",
+    "description": "Popisek",
+    "version": "0.0.1",
+    "publisher": "K2u",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "contributes": {
+      "commands": [{
+        "command": "vscode.window.showInformationMessage('test')",
+        "title": "Hello World",
+        "category": "Trololo"
+      }]
+    }
+}
